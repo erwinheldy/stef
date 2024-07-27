@@ -1,0 +1,40 @@
+{
+  "name": "stef",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Tiny javascript reactivity inspired by solid-js",
+  "license": "MIT",
+  "homepage": "https://github.com/erwinheldy/stef",
+  "repository": "https://github.com/erwinheldy/stef",
+  "bugs": {
+    "url": "https://github.com/erwinheldy/stef/issues"
+  },
+  "keywords": [
+    "reactivity",
+    "reactive",
+    "state",
+    "effect"
+  ],
+  "source": "./src/stef.ts",
+  "main": "./dist/stef.js",
+  "module": "./dist/stef.js",
+  "types": "./dist/stef.d.ts",
+  "libName": "Stef",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.23.2",
+    "@types/node": "20.14.12",
+    "eslint": "9.8.0",
+    "fast-dts": "1.0.1",
+    "typescript": "5.5.4",
+    "vite": "5.3.5"
+  }
+}
